@@ -9,9 +9,11 @@ on:
   workflow_dispatch:
 
 env:
-  DOMAIN: staging.myaigency.com
   DROPLET_HOST: 67.205.161.183
-  DEPLOY_PATH: /var/www/staging.myaigency.com
+  STAGING_DOMAIN: staging.myaigency.com
+  STAGING_PATH: /var/www/staging.myaigency.com
+  PRODUCTION_DOMAIN: myaigency.com
+  PRODUCTION_PATH: /var/www/myaigency.com
 
 jobs:
   deploy:
@@ -32,6 +34,7 @@ jobs:
       - name: Deploy site files to droplet
         run: |
           echo "Deploying to ${{ env.DROPLET_HOST }}..."
+          echo "Deploying to staging (${{ env.STAGING_DOMAIN }})..."
           rsync -avz --delete \
             -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no" \
             --exclude='.git' \
@@ -40,13 +43,26 @@ jobs:
             --exclude='node_modules' \
             --exclude='DEPLOYMENT.md' \
             --exclude='README.md' \
-            ./site/ root@${{ env.DROPLET_HOST }}:${{ env.DEPLOY_PATH }}/
+            ./site/ root@${{ env.DROPLET_HOST }}:${{ env.STAGING_PATH }}/
+
+          echo "Deploying to production (${{ env.PRODUCTION_DOMAIN }})..."
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no" \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='.do' \
+            --exclude='node_modules' \
+            --exclude='DEPLOYMENT.md' \
+            --exclude='README.md' \
+            ./site/ root@${{ env.DROPLET_HOST }}:${{ env.PRODUCTION_PATH }}/
 
       - name: Set permissions and reload Nginx
         run: |
           ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no root@${{ env.DROPLET_HOST }} << 'ENDSSH'
-            chown -R www-data:www-data ${{ env.DEPLOY_PATH }}
-            chmod -R 755 ${{ env.DEPLOY_PATH }}
+            chown -R www-data:www-data ${{ env.STAGING_PATH }}
+            chmod -R 755 ${{ env.STAGING_PATH }}
+            chown -R www-data:www-data ${{ env.PRODUCTION_PATH }}
+            chmod -R 755 ${{ env.PRODUCTION_PATH }}
             nginx -t && systemctl reload nginx
             echo "Deployment completed at $(date)"
           ENDSSH
@@ -54,8 +70,11 @@ jobs:
       - name: Verify deployment
         run: |
           echo "✅ Deployment completed successfully!"
-          echo "🌐 Live at: https://${{ env.DOMAIN }}"
-          curl -I https://${{ env.DOMAIN }} | head -5
+          echo "🌐 Staging: https://${{ env.STAGING_DOMAIN }}"
+          echo "🌐 Production: https://${{ env.PRODUCTION_DOMAIN }}"
+          curl -I https://${{ env.STAGING_DOMAIN }} | head -5
+          echo "---"
+          curl -I https://${{ env.PRODUCTION_DOMAIN }} | head -5
 
       - name: Cleanup
         if: always()
@@ -72,7 +91,8 @@ jobs:
         run: |
           if [ "${{ needs.deploy.result }}" == "success" ]; then
             echo "✅ Deployment successful!"
-            echo "🌐 Live at: https://${{ env.DOMAIN }}"
+            echo "🌐 Staging: https://${{ env.STAGING_DOMAIN }}"
+            echo "🌐 Production: https://${{ env.PRODUCTION_DOMAIN }}"
           else
             echo "❌ Deployment failed"
             exit 1
