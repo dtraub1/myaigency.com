@@ -1,0 +1,165 @@
+{
+  "pages": [
+    {
+      "url": "https://myaigency.com",
+      "localUrl": "http://localhost:4173/",
+      "breakpoints": {
+        "390": {
+          "mismatch": "100.00",
+          "pass": false,
+          "error": "Dimension mismatch",
+          "originalScreenshot": "capture/screens/fbe2287d6a6db005-390.png",
+          "newScreenshot": "capture/screens/fbe2287d6a6db005-390-local.png",
+          "diffScreenshot": "capture/screens/fbe2287d6a6db005-390-diff.png"
+        },
+        "768": {
+          "mismatch": "100.00",
+          "pass": false,
+          "error": "Dimension mismatch",
+          "originalScreenshot": "capture/screens/fbe2287d6a6db005-768.png",
+          "newScreenshot": "capture/screens/fbe2287d6a6db005-768-local.png",
+          "diffScreenshot": "capture/screens/fbe2287d6a6db005-768-diff.png"
+        },
+        "1280": {
+          "mismatch": "100.00",
+          "pass": false,
+          "error": "Dimension mismatch",
+          "originalScreenshot": "capture/screens/fbe2287d6a6db005-1280.png",
+          "newScreenshot": "capture/screens/fbe2287d6a6db005-1280-local.png",
+          "diffScreenshot": "capture/screens/fbe2287d6a6db005-1280-diff.png"
+        }
+      },
+      "pass": false
+    },
+    {
+      "url": "https://myaigency.com/",
+      "localUrl": "http://localhost:4173/",
+      "breakpoints": {
+        "390": {
+          "mismatch": "100.00",
+          "pass": false,
+          "error": "Dimension mismatch",
+          "originalScreenshot": "capture/screens/c0ad439ba5d7be9d-390.png",
+          "newScreenshot": "capture/screens/c0ad439ba5d7be9d-390-local.png",
+          "diffScreenshot": "capture/screens/c0ad439ba5d7be9d-390-diff.png"
+        },
+        "768": {
+          "mismatch": "100.00",
+          "pass": false,
+          "error": "Dimension mismatch",
+          "originalScreenshot": "capture/screens/c0ad439ba5d7be9d-768.png",
+          "newScreenshot": "capture/screens/c0ad439ba5d7be9d-768-local.png",
+          "diffScreenshot": "capture/screens/c0ad439ba5d7be9d-768-diff.png"
+        },
+        "1280": {
+          "mismatch": "100.00",
+          "pass": false,
+          "error": "Dimension mismatch",
+          "originalScreenshot": "capture/screens/c0ad439ba5d7be9d-1280.png",
+          "newScreenshot": "capture/screens/c0ad439ba5d7be9d-1280-local.png",
+          "diffScreenshot": "capture/screens/c0ad439ba5d7be9d-1280-diff.png"
+        }
+      },
+      "pass": false
+    },
+    {
+      "url": "https://myaigency.com/services",
+      "localUrl": "http://localhost:4173/services",
+      "breakpoints": {
+        "390": {
+          "mismatch": "100.00",
+          "pass": false,
+          "error": "Dimension mismatch",
+          "originalScreenshot": "capture/screens/2d71c9b117acd7c5-390.png",
+          "newScreenshot": "capture/screens/2d71c9b117acd7c5-390-local.png",
+          "diffScreenshot": "capture/screens/2d71c9b117acd7c5-390-diff.png"
+        },
+        "768": {
+          "mismatch": "100.00",
+          "pass": false,
+          "error": "Dimension mismatch",
+          "originalScreenshot": "capture/screens/2d71c9b117acd7c5-768.png",
+          "newScreenshot": "capture/screens/2d71c9b117acd7c5-768-local.png",
+          "diffScreenshot": "capture/screens/2d71c9b117acd7c5-768-diff.png"
+        },
+        "1280": {
+          "mismatch": "100.00",
+          "pass": false,
+          "error": "Dimension mismatch",
+          "originalScreenshot": "capture/screens/2d71c9b117acd7c5-1280.png",
+          "newScreenshot": "capture/screens/2d71c9b117acd7c5-1280-local.png",
+          "diffScreenshot": "capture/screens/2d71c9b117acd7c5-1280-diff.png"
+        }
+      },
+      "pass": false
+    },
+    {
+      "url": "https://myaigency.com/about",
+      "localUrl": "http://localhost:4173/about",
+      "breakpoints": {
+        "390": {
+          "mismatch": "100.00",
+          "pass": false,
+          "error": "Dimension mismatch",
+          "originalScreenshot": "capture/screens/25489727dc0a3f50-390.png",
+          "newScreenshot": "capture/screens/25489727dc0a3f50-390-local.png",
+          "diffScreenshot": "capture/screens/25489727dc0a3f50-390-diff.png"
+        },
+        "768": {
+          "mismatch": "100.00",
+          "pass": false,
+          "error": "Dimension mismatch",
+          "originalScreenshot": "capture/screens/25489727dc0a3f50-768.png",
+          "newScreenshot": "capture/screens/25489727dc0a3f50-768-local.png",
+          "diffScreenshot": "capture/screens/25489727dc0a3f50-768-diff.png"
+        },
+        "1280": {
+          "mismatch": "100.00",
+          "pass": false,
+          "error": "Dimension mismatch",
+          "originalScreenshot": "capture/screens/25489727dc0a3f50-1280.png",
+          "newScreenshot": "capture/screens/25489727dc0a3f50-1280-local.png",
+          "diffScreenshot": "capture/screens/25489727dc0a3f50-1280-diff.png"
+        }
+      },
+      "pass": false
+    },
+    {
+      "url": "https://myaigency.com/contact",
+      "localUrl": "http://localhost:4173/contact",
+      "breakpoints": {
+        "390": {
+          "mismatch": "100.00",
+          "pass": false,
+          "error": "Dimension mismatch",
+          "originalScreenshot": "capture/screens/ed320127cfa627ef-390.png",
+          "newScreenshot": "capture/screens/ed320127cfa627ef-390-local.png",
+          "diffScreenshot": "capture/screens/ed320127cfa627ef-390-diff.png"
+        },
+        "768": {
+          "mismatch": "100.00",
+          "pass": false,
+          "error": "Dimension mismatch",
+          "originalScreenshot": "capture/screens/ed320127cfa627ef-768.png",
+          "newScreenshot": "capture/screens/ed320127cfa627ef-768-local.png",
+          "diffScreenshot": "capture/screens/ed320127cfa627ef-768-diff.png"
+        },
+        "1280": {
+          "mismatch": "100.00",
+          "pass": false,
+          "error": "Dimension mismatch",
+          "originalScreenshot": "capture/screens/ed320127cfa627ef-1280.png",
+          "newScreenshot": "capture/screens/ed320127cfa627ef-1280-local.png",
+          "diffScreenshot": "capture/screens/ed320127cfa627ef-1280-diff.png"
+        }
+      },
+      "pass": false
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "passed": 0,
+    "failed": 5,
+    "passRate": "0.0"
+  }
+}

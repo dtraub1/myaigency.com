@@ -1,0 +1,53 @@
+name: Deploy to DigitalOcean
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+env:
+  DOMAIN: staging.myaigency.com
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy to DigitalOcean App Platform
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install doctl
+        uses: digitalocean/action-doctl@v2
+        with:
+          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+
+      - name: Deploy to DigitalOcean App Platform
+        run: |
+          echo "Deploying to DigitalOcean App Platform..."
+          doctl apps create-deployment ${{ secrets.DIGITALOCEAN_APP_ID }} --wait
+
+      - name: Verify deployment
+        run: |
+          echo "Deployment completed successfully!"
+          echo "Site available at: https://${{ env.DOMAIN }}"
+
+  notify:
+    runs-on: ubuntu-latest
+    needs: deploy
+    if: always()
+    name: Deployment notification
+
+    steps:
+      - name: Deployment status
+        run: |
+          if [ "${{ needs.deploy.result }}" == "success" ]; then
+            echo "✅ Deployment successful!"
+            echo "🌐 Live at: https://${{ env.DOMAIN }}"
+          else
+            echo "❌ Deployment failed"
+            exit 1
+          fi

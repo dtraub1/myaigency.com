@@ -1,0 +1,201 @@
+{
+  "url": "https://myaigency.com/services",
+  "requests": [
+    {
+      "url": "https://myaigency.com/services",
+      "resourceType": "document",
+      "method": "GET"
+    },
+    {
+      "url": "https://cdn.zyrosite.com/u1/google-fonts/font-faces?family=Outfit:wght@400;600&family=Inter:wght@400;500&display=swap",
+      "resourceType": "stylesheet",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/_slug_.Dw-rGNTb.css",
+      "resourceType": "stylesheet",
+      "method": "GET"
+    },
+    {
+      "url": "https://assets.zyrosite.com/m7V5W0QPOlhQl3DB/traffic.txt",
+      "resourceType": "other",
+      "method": "GET"
+    },
+    {
+      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop,q=95/m7V5W0QPOlhQl3DB/my_aigency_logo-AzGMrjP3a0UWBqo1.png",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1678483789105-2720201bee03?auto=format&fit=crop&w=400&h=280",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1678483789105-2720201bee03?auto=format&fit=crop&w=656&h=448",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/ClientHead.BGostSdS.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/client.CofR2CvM.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/Page.BdDtX-cr.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop,q=95/m7V5W0QPOlhQl3DB/my_aigency_logo-AzGMrjP3a0UWBqo1.png",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/Integrations.DaEAMW9T.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://cdn.zyrosite.com/u1/google-fonts/font-file?family=Inter:wght@400&subset=latin&display=swap",
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://cdn.zyrosite.com/u1/google-fonts/font-file?family=Outfit:wght@600&subset=latin&display=swap",
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://cdn.zyrosite.com/u1/google-fonts/font-file?family=Inter:wght@500&subset=latin&display=swap",
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1684369176170-463e84248b70?auto=format&fit=crop&w=400&h=280",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1684369175809-f9642140a1bd?auto=format&fit=crop&w=400&h=280",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1675023112817-52b789fd2ef0?auto=format&fit=crop&w=503&h=360",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1695811636867-9d8e14ec3197?auto=format&fit=crop&w=503&h=360",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1684369175833-4b445ad6bfb5?auto=format&fit=crop&w=503&h=360",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?auto=format&fit=crop&w=503&h=360",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=375,fit=crop/m7V5W0QPOlhQl3DB/dme-logo-white-YleqPVwrEQIlkbk9.png",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/_plugin-vue_export-helper.KrJQkJWK.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/scrollToSection.B0xGvVLO.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/siteModulesConstants.rBDSo9Nk.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/addDocumentElements.CCukoEZs.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1684369176170-463e84248b70?auto=format&fit=crop&w=328&h=223",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1684369175809-f9642140a1bd?auto=format&fit=crop&w=328&h=224",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1675023112817-52b789fd2ef0?auto=format&fit=crop&w=328&h=240",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1695811636867-9d8e14ec3197?auto=format&fit=crop&w=328&h=240",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1684369175833-4b445ad6bfb5?auto=format&fit=crop&w=328&h=240",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?auto=format&fit=crop&w=328&h=240",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=369,fit=crop/m7V5W0QPOlhQl3DB/dme-logo-white-YleqPVwrEQIlkbk9.png",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1684369176170-463e84248b70?auto=format&fit=crop&w=656&h=446",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1684369175809-f9642140a1bd?auto=format&fit=crop&w=656&h=448",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1675023112817-52b789fd2ef0?auto=format&fit=crop&w=656&h=480",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1695811636867-9d8e14ec3197?auto=format&fit=crop&w=656&h=480",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1684369175833-4b445ad6bfb5?auto=format&fit=crop&w=656&h=480",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?auto=format&fit=crop&w=656&h=480",
+      "resourceType": "image",
+      "method": "GET"
+    }
+  ],
+  "timestamp": "2025-11-12T02:11:33.237Z"
+}

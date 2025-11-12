@@ -1,0 +1,42 @@
+name: myaigency-staging
+region: nyc
+
+domains:
+  - domain: staging.myaigency.com
+    type: PRIMARY
+
+static_sites:
+  - name: myaigency-static
+    github:
+      repo: YOUR_GITHUB_USERNAME/myaigency-staging
+      branch: main
+      deploy_on_push: true
+
+    build_command: echo "No build needed - static site"
+
+    output_dir: /
+
+    routes:
+      - path: /
+
+    envs: []
+
+    cors:
+      allow_origins:
+        - prefix: https://staging.myaigency.com
+      allow_methods:
+        - GET
+        - POST
+        - OPTIONS
+      allow_headers:
+        - Content-Type
+
+    catchall_document: index.html
+    error_document: index.html
+
+alerts:
+  - rule: DEPLOYMENT_FAILED
+  - rule: DOMAIN_FAILED
+
+features:
+  - buildpack-stack=ubuntu-22

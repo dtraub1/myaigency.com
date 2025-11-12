@@ -1,0 +1,206 @@
+{
+  "url": "https://myaigency.com/about",
+  "requests": [
+    {
+      "url": "https://myaigency.com/about",
+      "resourceType": "document",
+      "method": "GET"
+    },
+    {
+      "url": "https://cdn.zyrosite.com/u1/google-fonts/font-faces?family=Outfit:wght@400;600&family=Inter:wght@400;500&display=swap",
+      "resourceType": "stylesheet",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/_slug_.Dw-rGNTb.css",
+      "resourceType": "stylesheet",
+      "method": "GET"
+    },
+    {
+      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop,q=95/m7V5W0QPOlhQl3DB/my_aigency_logo-AzGMrjP3a0UWBqo1.png",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://assets.zyrosite.com/m7V5W0QPOlhQl3DB/traffic.txt",
+      "resourceType": "other",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1678995634123-0a9e168deb4d?auto=format&fit=crop&w=606&h=544",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1678995634123-0a9e168deb4d?auto=format&fit=crop&w=656&h=752",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/ClientHead.BGostSdS.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/client.CofR2CvM.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/Page.BdDtX-cr.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop,q=95/m7V5W0QPOlhQl3DB/my_aigency_logo-AzGMrjP3a0UWBqo1.png",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/Integrations.DaEAMW9T.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://cdn.zyrosite.com/u1/google-fonts/font-file?family=Inter:wght@400&subset=latin&display=swap",
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://cdn.zyrosite.com/u1/google-fonts/font-file?family=Outfit:wght@600&subset=latin&display=swap",
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://cdn.zyrosite.com/u1/google-fonts/font-file?family=Inter:wght@500&subset=latin&display=swap",
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1675023035272-3426884896f8?auto=format&fit=crop&w=48&h=48",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1675715335132-7028ebc3ad8e?auto=format&fit=crop&w=606&h=464",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1657737185882-4403efaaa92d?auto=format&fit=crop&w=606&h=464",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1696041757866-f19a8e46fab1?auto=format&fit=crop&w=606&h=464",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1565761427976-00b99e567d7f?auto=format&fit=crop&w=606&h=464",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1686191128680-caa7558da57f?auto=format&fit=crop&w=606&h=464",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1676573411058-8054a4d2bc10?auto=format&fit=crop&w=606&h=464",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/_plugin-vue_export-helper.KrJQkJWK.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/scrollToSection.B0xGvVLO.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/siteModulesConstants.rBDSo9Nk.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/addDocumentElements.CCukoEZs.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1675023035272-3426884896f8?auto=format&fit=crop&w=96&h=96",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1675023035272-3426884896f8?auto=format&fit=crop&w=54&h=53",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1675715335132-7028ebc3ad8e?auto=format&fit=crop&w=328&h=320",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1657737185882-4403efaaa92d?auto=format&fit=crop&w=328&h=320",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1696041757866-f19a8e46fab1?auto=format&fit=crop&w=328&h=320",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1565761427976-00b99e567d7f?auto=format&fit=crop&w=328&h=320",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1686191128680-caa7558da57f?auto=format&fit=crop&w=328&h=320",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1676573411058-8054a4d2bc10?auto=format&fit=crop&w=328&h=320",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1675715335132-7028ebc3ad8e?auto=format&fit=crop&w=656&h=640",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1657737185882-4403efaaa92d?auto=format&fit=crop&w=656&h=640",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1696041757866-f19a8e46fab1?auto=format&fit=crop&w=656&h=640",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1565761427976-00b99e567d7f?auto=format&fit=crop&w=656&h=640",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1686191128680-caa7558da57f?auto=format&fit=crop&w=656&h=640",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1676573411058-8054a4d2bc10?auto=format&fit=crop&w=656&h=640",
+      "resourceType": "image",
+      "method": "GET"
+    }
+  ],
+  "timestamp": "2025-11-12T02:11:38.605Z"
+}

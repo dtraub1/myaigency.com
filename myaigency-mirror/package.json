@@ -1,0 +1,24 @@
+{
+  "name": "myaigency-mirror",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Pixel-perfect static mirror of myaigency.com",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "crawl": "node scripts/crawl.mjs",
+    "rewrite": "node scripts/rewrite.mjs",
+    "serve": "node scripts/serve.mjs",
+    "diff": "node scripts/diff.mjs",
+    "build": "npm run crawl && npm run rewrite",
+    "test": "npm run serve & sleep 3 && npm run diff"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "playwright": "^1.40.0",
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {}
+}

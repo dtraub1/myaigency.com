@@ -1,0 +1,176 @@
+{
+  "url": "https://myaigency.com/",
+  "requests": [
+    {
+      "url": "https://myaigency.com/",
+      "resourceType": "document",
+      "method": "GET"
+    },
+    {
+      "url": "https://cdn.zyrosite.com/u1/google-fonts/font-faces?family=Outfit:wght@400;600&family=Inter:wght@400;500&display=swap",
+      "resourceType": "stylesheet",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/_slug_.Dw-rGNTb.css",
+      "resourceType": "stylesheet",
+      "method": "GET"
+    },
+    {
+      "url": "https://assets.zyrosite.com/m7V5W0QPOlhQl3DB/traffic.txt",
+      "resourceType": "other",
+      "method": "GET"
+    },
+    {
+      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop,q=95/m7V5W0QPOlhQl3DB/my_aigency_logo-AzGMrjP3a0UWBqo1.png",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.pexels.com/videos/8328048/pexels-photo-8328048.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=562&h=480",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=656&h=528",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/ClientHead.BGostSdS.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/client.CofR2CvM.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop,q=95/m7V5W0QPOlhQl3DB/my_aigency_logo-AzGMrjP3a0UWBqo1.png",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://cdn.zyrosite.com/u1/google-fonts/font-file?family=Inter:wght@400&subset=latin&display=swap",
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://cdn.zyrosite.com/u1/google-fonts/font-file?family=Outfit:wght@600&subset=latin&display=swap",
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://cdn.zyrosite.com/u1/google-fonts/font-file?family=Inter:wght@500&subset=latin&display=swap",
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://videos.pexels.com/video-files/8328048/8328048-uhd_2560_1440_25fps.mp4",
+      "resourceType": "media",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/Page.BdDtX-cr.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/Integrations.DaEAMW9T.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1678995635432-d9e89c7a8fc5?auto=format&fit=crop&w=612&h=440",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=375,fit=crop/m7V5W0QPOlhQl3DB/dme-logo-white-YleqPVwrEQIlkbk9.png",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1684369585053-2b35888b3ae8?auto=format&fit=crop&w=503&h=360",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1702047063975-0841a0621b5a?auto=format&fit=crop&w=503&h=360",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/_plugin-vue_export-helper.KrJQkJWK.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/scrollToSection.B0xGvVLO.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/siteModulesConstants.rBDSo9Nk.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/addDocumentElements.CCukoEZs.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1678995635432-d9e89c7a8fc5?auto=format&fit=crop&w=328&h=264",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=369,fit=crop/m7V5W0QPOlhQl3DB/dme-logo-white-YleqPVwrEQIlkbk9.png",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1684369585053-2b35888b3ae8?auto=format&fit=crop&w=328&h=240",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1702047063975-0841a0621b5a?auto=format&fit=crop&w=328&h=240",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1678995635432-d9e89c7a8fc5?auto=format&fit=crop&w=656&h=528",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1684369585053-2b35888b3ae8?auto=format&fit=crop&w=656&h=480",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1702047063975-0841a0621b5a?auto=format&fit=crop&w=656&h=480",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1696333991019-c06759af30a6?auto=format&fit=crop&w=503&h=360",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1677696795198-5ac0e21060ed?auto=format&fit=crop&w=503&h=360",
+      "resourceType": "image",
+      "method": "GET"
+    }
+  ],
+  "timestamp": "2025-11-12T02:11:27.818Z"
+}

@@ -1,0 +1,176 @@
+{
+  "url": "https://myaigency.com/contact",
+  "requests": [
+    {
+      "url": "https://myaigency.com/contact",
+      "resourceType": "document",
+      "method": "GET"
+    },
+    {
+      "url": "https://cdn.zyrosite.com/u1/google-fonts/font-faces?family=Outfit:wght@400;600&family=Inter:wght@400;500&display=swap",
+      "resourceType": "stylesheet",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/_slug_.Dw-rGNTb.css",
+      "resourceType": "stylesheet",
+      "method": "GET"
+    },
+    {
+      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop,q=95/m7V5W0QPOlhQl3DB/my_aigency_logo-AzGMrjP3a0UWBqo1.png",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1619460909813-7d730bd12b8b?auto=format&fit=crop&w=1111&h=384",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1619460909813-7d730bd12b8b?auto=format&fit=crop&w=1080&h=1054",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://assets.zyrosite.com/m7V5W0QPOlhQl3DB/traffic.txt",
+      "resourceType": "other",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/ClientHead.BGostSdS.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/client.CofR2CvM.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop,q=95/m7V5W0QPOlhQl3DB/my_aigency_logo-AzGMrjP3a0UWBqo1.png",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/Page.BdDtX-cr.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/Integrations.DaEAMW9T.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://cdn.zyrosite.com/u1/google-fonts/font-file?family=Inter:wght@400&subset=latin&display=swap",
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://cdn.zyrosite.com/u1/google-fonts/font-file?family=Outfit:wght@600&subset=latin&display=swap",
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://cdn.zyrosite.com/u1/google-fonts/font-file?family=Inter:wght@500&subset=latin&display=swap",
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/_plugin-vue_export-helper.KrJQkJWK.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/scrollToSection.B0xGvVLO.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/siteModulesConstants.rBDSo9Nk.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://myaigency.com/_astro-1758717524117/addDocumentElements.CCukoEZs.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://maps.google.com/maps?q=697%20Hilltop%20Street,%20Springfield,%20MA,%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed",
+      "resourceType": "document",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1s697+Hilltop+Street,+Springfield,+MA,+USA!6i13",
+      "resourceType": "document",
+      "method": "GET"
+    },
+    {
+      "url": "https://maps.gstatic.com/maps-api-v3/embed/js/62/13e/init_embed.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=weekly&loading=async&language=en_US&callback=onApiLoad",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/62/13e/geometry.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/62/13e/search.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/62/13e/main.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+      "resourceType": "xhr",
+      "method": "GET"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/62/13e/common.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/62/13e/util.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/62/13e/map.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/62/13e/overlay.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i625990&2i777553&2e1&3u13&4m2&1u606&2u385&5m6&1e0&5sen-US&6sus&10b1&12b1&14i47083502&8e1&client=google-maps-embed&token=106820",
+      "resourceType": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/62/13e/onion.js",
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/62/13e/search_impl.js",
+      "resourceType": "script",
+      "method": "GET"
+    }
+  ],
+  "timestamp": "2025-11-12T02:11:44.865Z"
+}

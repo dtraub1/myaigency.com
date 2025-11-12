@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visual Diff Report - myaigency.com Mirror</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, sans-serif; padding: 2rem; background: #f5f5f5; }
+    .container { max-width: 1400px; margin: 0 auto; }
+    h1 { margin-bottom: 1rem; color: #333; }
+    .summary { background: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .summary-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem; }
+    .stat { text-align: center; padding: 1rem; background: #f9f9f9; border-radius: 4px; }
+    .stat-value { font-size: 2rem; font-weight: bold; color: #2563eb; }
+    .stat-label { font-size: 0.875rem; color: #666; margin-top: 0.5rem; }
+    .page-result { background: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .page-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+    .page-url { font-weight: 500; color: #333; word-break: break-all; }
+    .badge { padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.875rem; font-weight: 500; }
+    .badge.pass { background: #dcfce7; color: #166534; }
+    .badge.fail { background: #fee2e2; color: #991b1b; }
+    .breakpoint-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+    .breakpoint { border: 1px solid #e5e7eb; border-radius: 4px; padding: 1rem; }
+    .breakpoint-header { font-weight: 500; margin-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center; }
+    .mismatch { font-size: 0.875rem; color: #666; }
+    .screenshots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; margin-top: 0.5rem; }
+    .screenshot { text-align: center; }
+    .screenshot img { width: 100%; border: 1px solid #e5e7eb; border-radius: 4px; cursor: pointer; transition: transform 0.2s; }
+    .screenshot img:hover { transform: scale(1.02); }
+    .screenshot-label { font-size: 0.75rem; color: #666; margin-top: 0.25rem; }
+    .section-title { font-size: 1.25rem; font-weight: 600; margin: 2rem 0 1rem; color: #333; }
+    .no-failures { text-align: center; padding: 2rem; color: #16a34a; font-weight: 500; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Visual Diff Report</h1>
+    <p style="color: #666; margin-bottom: 2rem;">Generated: 2025-11-12T02:12:51.807Z</p>
+
+    <div class="summary">
+      <h2 style="margin-bottom: 1rem;">Summary</h2>
+      <div class="summary-grid">
+        <div class="stat">
+          <div class="stat-value">5</div>
+          <div class="stat-label">Total Pages</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" style="color: #16a34a;">0</div>
+          <div class="stat-label">Passed</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" style="color: #dc2626;">5</div>
+          <div class="stat-label">Failed</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">0.0%</div>
+          <div class="stat-label">Pass Rate</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <h2 class="section-title">Failed Pages (5)</h2>
+    
+      <div class="page-result">
+        <div class="page-header">
+          <div class="page-url">https://myaigency.com</div>
+          <span class="badge fail">FAIL</span>
+        </div>
+        <div class="breakpoint-grid">
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>390px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+              <p style="color: #dc2626; font-size: 0.875rem;">Dimension mismatch</p>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>768px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+              <p style="color: #dc2626; font-size: 0.875rem;">Dimension mismatch</p>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>1280px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+              <p style="color: #dc2626; font-size: 0.875rem;">Dimension mismatch</p>
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <div class="page-header">
+          <div class="page-url">https://myaigency.com/</div>
+          <span class="badge fail">FAIL</span>
+        </div>
+        <div class="breakpoint-grid">
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>390px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+              <p style="color: #dc2626; font-size: 0.875rem;">Dimension mismatch</p>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>768px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+              <p style="color: #dc2626; font-size: 0.875rem;">Dimension mismatch</p>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>1280px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+              <p style="color: #dc2626; font-size: 0.875rem;">Dimension mismatch</p>
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <div class="page-header">
+          <div class="page-url">https://myaigency.com/services</div>
+          <span class="badge fail">FAIL</span>
+        </div>
+        <div class="breakpoint-grid">
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>390px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+              <p style="color: #dc2626; font-size: 0.875rem;">Dimension mismatch</p>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>768px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+              <p style="color: #dc2626; font-size: 0.875rem;">Dimension mismatch</p>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>1280px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+              <p style="color: #dc2626; font-size: 0.875rem;">Dimension mismatch</p>
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <div class="page-header">
+          <div class="page-url">https://myaigency.com/about</div>
+          <span class="badge fail">FAIL</span>
+        </div>
+        <div class="breakpoint-grid">
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>390px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+              <p style="color: #dc2626; font-size: 0.875rem;">Dimension mismatch</p>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>768px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+              <p style="color: #dc2626; font-size: 0.875rem;">Dimension mismatch</p>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>1280px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+              <p style="color: #dc2626; font-size: 0.875rem;">Dimension mismatch</p>
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <div class="page-header">
+          <div class="page-url">https://myaigency.com/contact</div>
+          <span class="badge fail">FAIL</span>
+        </div>
+        <div class="breakpoint-grid">
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>390px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+              <p style="color: #dc2626; font-size: 0.875rem;">Dimension mismatch</p>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>768px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+              <p style="color: #dc2626; font-size: 0.875rem;">Dimension mismatch</p>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>1280px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+              <p style="color: #dc2626; font-size: 0.875rem;">Dimension mismatch</p>
+            </div>
+          
+        </div>
+      </div>
+    
+    
+
+    <h2 class="section-title">All Pages (5)</h2>
+    
+      <div class="page-result">
+        <div class="page-header">
+          <div class="page-url">https://myaigency.com</div>
+          <span class="badge fail">FAIL</span>
+        </div>
+        <div class="breakpoint-grid">
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>390px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>768px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>1280px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <div class="page-header">
+          <div class="page-url">https://myaigency.com/</div>
+          <span class="badge fail">FAIL</span>
+        </div>
+        <div class="breakpoint-grid">
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>390px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>768px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>1280px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <div class="page-header">
+          <div class="page-url">https://myaigency.com/services</div>
+          <span class="badge fail">FAIL</span>
+        </div>
+        <div class="breakpoint-grid">
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>390px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>768px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>1280px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <div class="page-header">
+          <div class="page-url">https://myaigency.com/about</div>
+          <span class="badge fail">FAIL</span>
+        </div>
+        <div class="breakpoint-grid">
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>390px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>768px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>1280px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <div class="page-header">
+          <div class="page-url">https://myaigency.com/contact</div>
+          <span class="badge fail">FAIL</span>
+        </div>
+        <div class="breakpoint-grid">
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>390px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>768px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+            </div>
+          
+            <div class="breakpoint">
+              <div class="breakpoint-header">
+                <span>1280px</span>
+                <span class="mismatch">100.00% diff</span>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    
+  </div>
+</body>
+</html>

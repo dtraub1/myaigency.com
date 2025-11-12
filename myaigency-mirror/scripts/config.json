@@ -1,0 +1,10 @@
+{
+  "target_url": "https://myaigency.com",
+  "breakpoints": [390, 768, 1280],
+  "include_paths": [],
+  "exclude_paths": [],
+  "rate_limit_rps": 4,
+  "max_pages": null,
+  "robots_respect": false,
+  "visual_diff_threshold": 1.5
+}
