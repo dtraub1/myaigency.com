@@ -1,0 +1,19 @@
+name: myaigency-staging
+region: nyc
+
+static_sites:
+  - name: myaigency-static
+    git:
+      repo_clone_url: https://github.com/dtraub1/myaigency.com
+      branch: main
+
+    source_dir: /site
+
+    routes:
+      - path: /
+
+    catchall_document: index.html
+
+alerts:
+  - rule: DEPLOYMENT_FAILED
+  - rule: DOMAIN_FAILED
